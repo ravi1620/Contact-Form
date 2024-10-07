@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(skyblue, pink);
+}
+
+body:hover{
+    height: 100vh;
+    background: linear-gradient(pink, skyblue);
+    color: rgb(12, 173, 236);
+    background-repeat: no-repeat;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 20px;
+  border: 2px solid orange;
+  text-align: center;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+  display: inline-block;
+  border: 2px solid orange;
+  border-radius: 20px;
+  padding: 20px;
+  padding: 20px;
+}
+
+input:hover,
+textarea:hover {
+  border: 2px solid rgb(15, 236, 15);
+}
+
+h1 {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+u:hover{
+    border-radius: 2px solid pink;
+    width: 10px;
+}
+
+form {
+  width: 350px;
+  height: auto;
+  position: relative;
+  left: 100px;
+  top: 20px;
+  display: inline-block;
+  border: 2px solid gainsboro;
+  padding: 20px; 
+  border-radius: 20px;
+}
+
+
+form:hover{
+    border: 2px solid rgb(211, 22, 22);
+}
+
+button{
+    background:linear-gradient(red,yellow);
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+button:hover{
+    background:linear-gradient(rgb(47, 0, 255),rgb(255, 0, 212));
+    border: 2px solid rgb(128, 45, 45);
+    border-radius: 20px; 
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+    form{
+        display: none;
+    }
+}
